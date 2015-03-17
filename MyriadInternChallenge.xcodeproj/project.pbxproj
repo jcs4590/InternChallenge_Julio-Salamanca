@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A08EC81AB544DE00625770 /* KingdomMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A08EC71AB544DE00625770 /* KingdomMainTableViewCell.m */; };
+		01A08ECB1AB69AE900625770 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A08ECA1AB69AE900625770 /* RootViewController.m */; };
+		01F4D5061AB475F400447C5F /* Kingdom.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F4D5051AB475F400447C5F /* Kingdom.m */; };
+		01FADE401AB466B200163B5D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FADE3F1AB466B200163B5D /* TableViewController.m */; };
+		432C616D1AB3BF51009794A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C616C1AB3BF51009794A6 /* main.m */; };
+		432C61701AB3BF51009794A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C616F1AB3BF51009794A6 /* AppDelegate.m */; };
+		432C61731AB3BF51009794A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C61721AB3BF51009794A6 /* ViewController.m */; };
+		432C61761AB3BF51009794A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432C61741AB3BF51009794A6 /* Main.storyboard */; };
+		432C61781AB3BF51009794A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432C61771AB3BF51009794A6 /* Images.xcassets */; };
+		432C617B1AB3BF51009794A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432C61791AB3BF51009794A6 /* LaunchScreen.xib */; };
+		432C61871AB3BF51009794A6 /* MyriadInternChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432C61861AB3BF51009794A6 /* MyriadInternChallengeTests.m */; };
+		4364606E1AB5E1FD00901248 /* KingomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4364606D1AB5E1FD00901248 /* KingomeDetailViewController.m */; };
+		436460711AB608EF00901248 /* Quest.m in Sources */ = {isa = PBXBuildFile; fileRef = 436460701AB608EF00901248 /* Quest.m */; };
+		436460741AB60B1900901248 /* Giver.m in Sources */ = {isa = PBXBuildFile; fileRef = 436460731AB60B1900901248 /* Giver.m */; };
+		436460771AB629B900901248 /* QuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436460761AB629B900901248 /* QuestTableViewCell.m */; };
+		6F0998E380003D5F06EB1FCF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC029C7C96EEBB1548BF6E9 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432C61811AB3BF51009794A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432C615F1AB3BF51009794A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432C61661AB3BF51009794A6;
+			remoteInfo = MyriadInternChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A08EC61AB544DE00625770 /* KingdomMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingdomMainTableViewCell.h; sourceTree = "<group>"; };
+		01A08EC71AB544DE00625770 /* KingdomMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingdomMainTableViewCell.m; sourceTree = "<group>"; };
+		01A08EC91AB69AE900625770 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		01A08ECA1AB69AE900625770 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		01F4D5041AB475F400447C5F /* Kingdom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingdom.h; sourceTree = "<group>"; };
+		01F4D5051AB475F400447C5F /* Kingdom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kingdom.m; sourceTree = "<group>"; };
+		01FADE3E1AB466B200163B5D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		01FADE3F1AB466B200163B5D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3FC029C7C96EEBB1548BF6E9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		432C61671AB3BF51009794A6 /* MyriadInternChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyriadInternChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		432C616B1AB3BF51009794A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432C616C1AB3BF51009794A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		432C616E1AB3BF51009794A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		432C616F1AB3BF51009794A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		432C61711AB3BF51009794A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		432C61721AB3BF51009794A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		432C61751AB3BF51009794A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432C61771AB3BF51009794A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		432C617A1AB3BF51009794A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		432C61801AB3BF51009794A6 /* MyriadInternChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyriadInternChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432C61851AB3BF51009794A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432C61861AB3BF51009794A6 /* MyriadInternChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyriadInternChallengeTests.m; sourceTree = "<group>"; };
+		4364606C1AB5E1FD00901248 /* KingomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingomeDetailViewController.h; sourceTree = "<group>"; };
+		4364606D1AB5E1FD00901248 /* KingomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingomeDetailViewController.m; sourceTree = "<group>"; };
+		4364606F1AB608EF00901248 /* Quest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quest.h; sourceTree = "<group>"; };
+		436460701AB608EF00901248 /* Quest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quest.m; sourceTree = "<group>"; };
+		436460721AB60B1900901248 /* Giver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giver.h; sourceTree = "<group>"; };
+		436460731AB60B1900901248 /* Giver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Giver.m; sourceTree = "<group>"; };
+		436460751AB629B900901248 /* QuestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestTableViewCell.h; sourceTree = "<group>"; };
+		436460761AB629B900901248 /* QuestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestTableViewCell.m; sourceTree = "<group>"; };
+		80661D0E55923834803568B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A99390EE537438CAC1792D5B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432C61641AB3BF51009794A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0998E380003D5F06EB1FCF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432C617D1AB3BF51009794A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419BB3BA910BA641213D94E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80661D0E55923834803568B2 /* Pods.debug.xcconfig */,
+				A99390EE537438CAC1792D5B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		432C615E1AB3BF51009794A6 = {
+			isa = PBXGroup;
+			children = (
+				432C61691AB3BF51009794A6 /* MyriadInternChallenge */,
+				432C61831AB3BF51009794A6 /* MyriadInternChallengeTests */,
+				432C61681AB3BF51009794A6 /* Products */,
+				419BB3BA910BA641213D94E3 /* Pods */,
+				679DAD799DCFC7370399B7B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		432C61681AB3BF51009794A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432C61671AB3BF51009794A6 /* MyriadInternChallenge.app */,
+				432C61801AB3BF51009794A6 /* MyriadInternChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432C61691AB3BF51009794A6 /* MyriadInternChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				432C616E1AB3BF51009794A6 /* AppDelegate.h */,
+				432C616F1AB3BF51009794A6 /* AppDelegate.m */,
+				432C61711AB3BF51009794A6 /* ViewController.h */,
+				432C61721AB3BF51009794A6 /* ViewController.m */,
+				432C61741AB3BF51009794A6 /* Main.storyboard */,
+				01A08EC91AB69AE900625770 /* RootViewController.h */,
+				01A08ECA1AB69AE900625770 /* RootViewController.m */,
+				4364606C1AB5E1FD00901248 /* KingomeDetailViewController.h */,
+				4364606D1AB5E1FD00901248 /* KingomeDetailViewController.m */,
+				4364606F1AB608EF00901248 /* Quest.h */,
+				436460721AB60B1900901248 /* Giver.h */,
+				436460731AB60B1900901248 /* Giver.m */,
+				436460701AB608EF00901248 /* Quest.m */,
+				01FADE3E1AB466B200163B5D /* TableViewController.h */,
+				01FADE3F1AB466B200163B5D /* TableViewController.m */,
+				436460751AB629B900901248 /* QuestTableViewCell.h */,
+				436460761AB629B900901248 /* QuestTableViewCell.m */,
+				01A08EC61AB544DE00625770 /* KingdomMainTableViewCell.h */,
+				01A08EC71AB544DE00625770 /* KingdomMainTableViewCell.m */,
+				432C61771AB3BF51009794A6 /* Images.xcassets */,
+				432C61791AB3BF51009794A6 /* LaunchScreen.xib */,
+				01F4D5041AB475F400447C5F /* Kingdom.h */,
+				01F4D5051AB475F400447C5F /* Kingdom.m */,
+				432C616A1AB3BF51009794A6 /* Supporting Files */,
+			);
+			path = MyriadInternChallenge;
+			sourceTree = "<group>";
+		};
+		432C616A1AB3BF51009794A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				432C616B1AB3BF51009794A6 /* Info.plist */,
+				432C616C1AB3BF51009794A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		432C61831AB3BF51009794A6 /* MyriadInternChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				432C61861AB3BF51009794A6 /* MyriadInternChallengeTests.m */,
+				432C61841AB3BF51009794A6 /* Supporting Files */,
+			);
+			path = MyriadInternChallengeTests;
+			sourceTree = "<group>";
+		};
+		432C61841AB3BF51009794A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				432C61851AB3BF51009794A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		679DAD799DCFC7370399B7B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC029C7C96EEBB1548BF6E9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432C61661AB3BF51009794A6 /* MyriadInternChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432C618A1AB3BF51009794A6 /* Build configuration list for PBXNativeTarget "MyriadInternChallenge" */;
+			buildPhases = (
+				6741F91F543142C0B9B20201 /* Check Pods Manifest.lock */,
+				432C61631AB3BF51009794A6 /* Sources */,
+				432C61641AB3BF51009794A6 /* Frameworks */,
+				432C61651AB3BF51009794A6 /* Resources */,
+				E129B9525609AC0232E1B892 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyriadInternChallenge;
+			productName = MyriadInternChallenge;
+			productReference = 432C61671AB3BF51009794A6 /* MyriadInternChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		432C617F1AB3BF51009794A6 /* MyriadInternChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432C618D1AB3BF51009794A6 /* Build configuration list for PBXNativeTarget "MyriadInternChallengeTests" */;
+			buildPhases = (
+				432C617C1AB3BF51009794A6 /* Sources */,
+				432C617D1AB3BF51009794A6 /* Frameworks */,
+				432C617E1AB3BF51009794A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432C61821AB3BF51009794A6 /* PBXTargetDependency */,
+			);
+			name = MyriadInternChallengeTests;
+			productName = MyriadInternChallengeTests;
+			productReference = 432C61801AB3BF51009794A6 /* MyriadInternChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432C615F1AB3BF51009794A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Julio Salamanca";
+				TargetAttributes = {
+					432C61661AB3BF51009794A6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					432C617F1AB3BF51009794A6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 432C61661AB3BF51009794A6;
+					};
+				};
+			};
+			buildConfigurationList = 432C61621AB3BF51009794A6 /* Build configuration list for PBXProject "MyriadInternChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432C615E1AB3BF51009794A6;
+			productRefGroup = 432C61681AB3BF51009794A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432C61661AB3BF51009794A6 /* MyriadInternChallenge */,
+				432C617F1AB3BF51009794A6 /* MyriadInternChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432C61651AB3BF51009794A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432C61761AB3BF51009794A6 /* Main.storyboard in Resources */,
+				432C617B1AB3BF51009794A6 /* LaunchScreen.xib in Resources */,
+				432C61781AB3BF51009794A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432C617E1AB3BF51009794A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6741F91F543142C0B9B20201 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E129B9525609AC0232E1B892 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432C61631AB3BF51009794A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F4D5061AB475F400447C5F /* Kingdom.m in Sources */,
+				432C61731AB3BF51009794A6 /* ViewController.m in Sources */,
+				432C61701AB3BF51009794A6 /* AppDelegate.m in Sources */,
+				436460741AB60B1900901248 /* Giver.m in Sources */,
+				432C616D1AB3BF51009794A6 /* main.m in Sources */,
+				436460711AB608EF00901248 /* Quest.m in Sources */,
+				01A08EC81AB544DE00625770 /* KingdomMainTableViewCell.m in Sources */,
+				01A08ECB1AB69AE900625770 /* RootViewController.m in Sources */,
+				01FADE401AB466B200163B5D /* TableViewController.m in Sources */,
+				436460771AB629B900901248 /* QuestTableViewCell.m in Sources */,
+				4364606E1AB5E1FD00901248 /* KingomeDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432C617C1AB3BF51009794A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432C61871AB3BF51009794A6 /* MyriadInternChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432C61821AB3BF51009794A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432C61661AB3BF51009794A6 /* MyriadInternChallenge */;
+			targetProxy = 432C61811AB3BF51009794A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		432C61741AB3BF51009794A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432C61751AB3BF51009794A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432C61791AB3BF51009794A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432C617A1AB3BF51009794A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432C61881AB3BF51009794A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432C61891AB3BF51009794A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432C618B1AB3BF51009794A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80661D0E55923834803568B2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyriadInternChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		432C618C1AB3BF51009794A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99390EE537438CAC1792D5B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyriadInternChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		432C618E1AB3BF51009794A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyriadInternChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyriadInternChallenge.app/MyriadInternChallenge";
+			};
+			name = Debug;
+		};
+		432C618F1AB3BF51009794A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyriadInternChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyriadInternChallenge.app/MyriadInternChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432C61621AB3BF51009794A6 /* Build configuration list for PBXProject "MyriadInternChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432C61881AB3BF51009794A6 /* Debug */,
+				432C61891AB3BF51009794A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432C618A1AB3BF51009794A6 /* Build configuration list for PBXNativeTarget "MyriadInternChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432C618B1AB3BF51009794A6 /* Debug */,
+				432C618C1AB3BF51009794A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432C618D1AB3BF51009794A6 /* Build configuration list for PBXNativeTarget "MyriadInternChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432C618E1AB3BF51009794A6 /* Debug */,
+				432C618F1AB3BF51009794A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432C615F1AB3BF51009794A6 /* Project object */;
+}

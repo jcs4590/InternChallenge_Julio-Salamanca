@@ -1,0 +1,14 @@
+//
+//  ViewController.h
+//  MyriadInternChallenge
+//
+//  Created by Julio Salamanca on 3/13/15.
+//  Copyright (c) 2015 Julio Salamanca. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController 
+
+@end
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>99073A20-E2BC-4A12-A209-02459AFAC6BF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyriadInternChallenge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CC77DD73E57CDAF76D19CC1C02EE13E5BC9EC2FD</key>
+		<string>https://github.com/jcs4590/MyriadInternChallenge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyriadInternChallenge.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CC77DD73E57CDAF76D19CC1C02EE13E5BC9EC2FD</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jcs4590/MyriadInternChallenge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC77DD73E57CDAF76D19CC1C02EE13E5BC9EC2FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC77DD73E57CDAF76D19CC1C02EE13E5BC9EC2FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyriadInternChallenge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
